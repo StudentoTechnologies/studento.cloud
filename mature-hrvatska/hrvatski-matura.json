@@ -1,0 +1,74 @@
+{
+  "state": {
+    "name": "test",
+    "questionsGroups": [
+      {
+        "id": 1,
+        "name": "2",
+        "questions": [
+          {
+            "id": 1,
+            "stemElements": [{ "type": "text", "textString": "asda" }],
+            "offeredAnswers": [
+              {
+                "id": 0,
+                "isCorrect": false,
+                "elements": [{ "type": "text", "textString": "asd" }]
+              },
+              {
+                "id": 1,
+                "isCorrect": true,
+                "elements": [{ "type": "text", "textString": "asdasd" }]
+              },
+              {
+                "id": 2,
+                "isCorrect": false,
+                "elements": [{ "type": "text", "textString": "sds" }]
+              }
+            ],
+            "tags": ["ganga i rera"],
+            "hintElements": [],
+            "explanationElements": [],
+            "allTimeStatistics": {
+              "totalTimesAnswered": 0,
+              "numberOfCorrectChoices": 0
+            }
+          }
+        ]
+      }
+    ],
+    "workoutSettings": {
+      "stemTextColorIsRandom": false,
+      "stemTextFontSizeIsRandom": false,
+      "stemTextFontFamilyIsRandom": false,
+      "offeredAnswerTextColorIsRandom": false,
+      "offeredAnswerTextFontSizeIsRandom": false,
+      "offeredAnswerTextFontFamilyIsRandom": false,
+      "orderOfOfferedAnswersIsRandom": true,
+      "questionRepetitionCountPerRound": 3,
+      "reduceQuestionRepetitionCountEachRound": true
+    },
+    "workoutPlan": null,
+    "activeGeneralTest": null,
+    "activePreciseTraining": null,
+    "globalQuestionFilterState": {
+      "questionGroupFilter": { "filteringType": null, "selectedGroups": [] },
+      "workoutSetsIndexesFilter": {
+        "filteringType": null,
+        "selectedIndexes_firstIndexIs0": []
+      },
+      "tagFilter": { "filteringType": null, "selectedTags": [] },
+      "textFilter": { "filteringType": null, "texts": [] }
+    },
+    "initialTrainingRoundFilterState": {
+      "questionGroupFilter": { "filteringType": null, "selectedGroups": [] },
+      "workoutSetsIndexesFilter": {
+        "filteringType": null,
+        "selectedIndexes_firstIndexIs0": []
+      },
+      "tagFilter": { "filteringType": null, "selectedTags": [] },
+      "textFilter": { "filteringType": null, "texts": [] }
+    }
+  },
+  "version": 0
+}
